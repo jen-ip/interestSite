@@ -1,0 +1,50 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+#wrap{
+	width: 400px;
+	margin: 0 auto;
+
+}
+nav{
+	background: black;
+	float: left;
+	width: 100%;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+
+}
+nav ul li{
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding: 25px 0px 25px;
+}
+nav ul li:hover{
+	color: black;
+	background-color: white;
+}
+#banner{
+	background-color: orange;
+	height: 100px;
+	display: none;
+}
+.column{
+	width: 100%;
+	background-color: yellow;
+	float: left;
+	min-height:  60vh;
+
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 8pt;
+
+}
