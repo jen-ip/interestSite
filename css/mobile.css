@@ -4,7 +4,7 @@ body{
 
 }
 #wrap{
-	width: 400px;
+	width: 360px;
 	margin: 0 auto;
 
 }
@@ -40,6 +40,18 @@ nav ul li:hover{
 	background-color: yellow;
 	float: left;
 	min-height:  60vh;
+
+}
+h1{
+	padding: 10px;
+
+}
+p{ padding: 10px; 
+}
+
+.image{
+	height: 50vh;
+	padding: 20px;
 
 }
 footer{

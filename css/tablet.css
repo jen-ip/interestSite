@@ -1,3 +1,64 @@
 body{
-	background: blue;
+	margin: 0px;
+	padding: 0px;
+
+}
+#wrap{
+	max-width: 980px;
+	margin: 0 auto;
+	border: solid 1px black;
+
+}
+nav{
+	background: black;
+	float: left;
+	width: 100%;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 100%;
+
+}
+nav ul li{
+	color: white;
+	text-align: center;
+	width: 25%;
+	float: left;
+	padding: 25px 0px 25px;
+}
+nav ul li:hover{
+	color: black;
+	background-color: white;
+}
+#banner{
+	background-color: orange;
+	height: 100px;
+	display: none;
+}
+.column{
+	width: 50%;
+	background-color: yellow;
+	float: left;
+	min-height:  60vh;
+
+}
+h1{
+	padding: 10px;
+
+}
+p{ padding: 10px; 
+}
+
+.image{
+	height: 50vh;
+	padding: 20px;
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 8pt;
+
 }
